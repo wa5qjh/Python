@@ -25,7 +25,9 @@ def sqrt( a ) :
         y = ( x + a/x ) / 2
     return y
 
-def test_sqrt(tri) :
+def sqrt_tst(tri) :
+#def test_sqrt(tri) : "test_sqrt()" causes PyCharm to invoke Unittest runs so name changed.
+# sqrt_test() causes Unittest in PyCharm, too.
     print ( "\n\t Testing my sqrt vs math.sqrt")
     print (sys.version_info)
     if sys.version_info[0] == 3:
@@ -37,5 +39,5 @@ def test_sqrt(tri) :
 
 #    ----------
 
-test_sqrt(555)
+sqrt_tst(555)
 
