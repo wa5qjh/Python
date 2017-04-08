@@ -33,7 +33,7 @@ def rect_pol( x, y ):
 
 #================   Test Code Section   ====================
 print ("\n \n Test Code....degrees and radians........")
-print "math lib imported: %s \n" % math
+print ("math lib imported: %s \n" % math)
 formatPol = "  To Polar:   radius: %.4f  angle: %.3f degrees" 
 formatRect ="  To Rectangular:   x= %.4f    y= %.4f "
 x = 3
@@ -45,24 +45,24 @@ print (" \n \n")
 #print ( "radians %.3f degrees %f" %  rad deg )
 #print  ( "degrees %.3f radians %.3f " % deg ToRadians( deg ) )
 ## Print with Format statements print Format % ( parm , parm)
-print " %.3f radians  %.3f degrees\n"  % ( rad , deg )
-print  " radius: %.3f   %.3f degrees \n" % (ToDegrees( rad )  , ToRadians( deg )  )
-print "\t  end 1st test of math functions \n"
+print (" %.3f radians  %.3f degrees\n"  % ( rad , deg ))
+print ( " radius: %.3f   %.3f degrees \n" % (ToDegrees( rad )  , ToRadians( deg )  ))
+print ("\t  end 1st test of math functions \n")
 print ("test math. trig functions")
-print " math.cos %.3f" % ( math.cos(9.564738) )
-print "math.sin %.3f" % ( math.sin( 9.918273) )
-print "math.atan %.3f" % ( math.atan(9.9999))
-print "math.atan2  %.3f" % ( math.atan2( 3.0 , 4) )
-print "math.sqrt  %.3f \n" % ( math.sqrt(100) )
-print "polar to rect  %.4f x  %.4f y " % ( pol_rect(  rad,deg) )
+print (" math.cos %.3f" % ( math.cos(9.564738) ))
+print ("math.sin %.3f" % ( math.sin( 9.918273) ))
+print ("math.atan %.3f" % ( math.atan(9.9999)))
+print ("math.atan2  %.3f" % ( math.atan2( 3.0 , 4) ))
+print ("math.sqrt  %.3f \n" % ( math.sqrt(100) ))
+print ("polar to rect  %.4f x  %.4f y " % ( pol_rect(  rad,deg) ))
 
 print ("____  end of trig function tests ____________ \n \n")
 
 print ( "\tPolar to rectangular")
-print formatRect % (( pol_rect(  rad , deg ) ) )
+print (formatRect % (( pol_rect(  rad , deg ) ) ))
 print ("----------" )
 print ("\tRectangular to polar")
-print formatPol % ((rect_pol( x , y ) )  )
+print (formatPol % ((rect_pol( x , y ) )  ))
 
 
 print ("__________________")
